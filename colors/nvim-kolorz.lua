@@ -4,7 +4,7 @@ if vim.fn.exists("syntax_on") then
 end
 
 vim.o.background = "dark"
-vim.g.colors_name = "nvim-kolors"
+vim.g.colors_name = "nvim-kolorz"
 
 local palette = require("nvim-kolorz.colors")
 
