@@ -6,7 +6,7 @@ end
 vim.o.background = "dark"
 vim.g.colors_name = "nvim-kolors"
 
-local palette = require("nvim-kolorz.palette")
+local palette = require("nvim-kolorz.colors")
 
 local highlights = {
 	Normal = { fg = palette.c_normal_fg, bg = palette.c_normal_bg },
