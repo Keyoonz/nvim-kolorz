@@ -10,7 +10,7 @@ local palette
 local opts = require("nvim-kolorz").options
 if opts.konfiz_integrated then
 	local home = os.getenv("HOME") or os.getenv("USERPROFILE")
-	local abs = home .. ".config/matugen/"
+	local abs = home .. "/.config/matugen/?/?.lua"
 	package.path = abs .. ";" .. package.path
 	palette = require("results.colors")
 else
