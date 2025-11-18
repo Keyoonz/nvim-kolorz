@@ -6,7 +6,16 @@ end
 vim.o.background = "dark"
 vim.g.colors_name = "nvim-kolorz"
 
-local palette = require("nvim-kolorz.colors")
+local palette
+local opts = require("nvim-kolorz").options
+if opts.konfiz_integrated then
+	local home = os.getenv("HOME") or os.getenv("USERPROFILE")
+	local abs = home .. ".config/matugen/"
+	package.path = abs .. ";" .. package.path
+	palette = require("results.colors")
+else
+	palette = require("nvim-kolorz.colors")
+end
 
 local highlights = {
 	Normal = { fg = palette.c_normal_fg, bg = palette.c_normal_bg },
