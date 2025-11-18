@@ -15,8 +15,8 @@ return {
     c_visual       = "{{colors.surface_container_high.default.hex}}",
 
     -- Line numbers
-    c_line_nr         = "{{colors.on_surface_variant.default.hex}}",
-    c_cursor_line_nr  = "{{colors.primary.default.hex}}",
+	c_line_nr         = "{{colors.tertiary.default.hex}}",
+	c_cursor_line_nr  = "{{colors.tertiary_container.default.hex}}",
 
     -- Statusline
     c_status_line_fg = "{{colors.on_surface_variant.default.hex}}",
