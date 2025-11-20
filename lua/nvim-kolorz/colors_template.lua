@@ -4,7 +4,7 @@ return {
     c_normal_bg = "{{colors.surface.default.hex}}",
 
     -- Syntax groups
-    c_comment      = "{{colors.surface_variant.default.hex}}",
+    c_comment      = "{{colors.surface_variant.default.hex | lighten: +30}}",
     c_string       = "{{colors.tertiary.default.hex}}",
     c_identifier   = "{{colors.on_surface.default.hex}}",
     c_function     = "{{colors.primary.default.hex}}",
