@@ -1,3 +1,4 @@
+# THIS REPOSITORY HAS BEEN MOVED TO [MY SELF HOSTED GITEA SERVER](https://gitkeaz.keyonz.dev/Keyonz/nvim-kolorz)
 # nvim-kolorz
 
 nvim-kolorz is a customisable nvim colorscheme.
