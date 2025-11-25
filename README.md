@@ -7,12 +7,15 @@ It is made to be used with [KonfiZ](https://github.com/Keyoonz/KonfiZ) which reg
 
 ```lua
 {
-  "Keyoonz/nvim-kolorz",
-  name = "nvim-kolorz",
-  lazy = false,
-  priority = 1000,
-  config = function()
-    vim.cmd("colorscheme nvim-kolorz")
-  end
+    "https://gitkeaz.keyonz.dev/Keyonz/nvim-kolorz",
+    name = "nvim-kolorz",
+    lazy = false,
+    priority = 1000,
+    config = function()
+        require("nvim-kolorz").setup({
+            konfiz_integrated = false,
+        })
+        vim.cmd("colorscheme nvim-kolorz")
+    end,
 }
 ```
